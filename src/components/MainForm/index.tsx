@@ -15,7 +15,7 @@ export function MainForm() {
         />
       </div>
       <div className='form-row'>
-        <p>Choose a time for your task </p>
+        <p>O tempo para o proximo intervalo e de 25 minutos</p>
       </div>
 
       <div className='form-row'>
