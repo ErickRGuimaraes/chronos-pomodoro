@@ -44,7 +44,7 @@ export function MainForm() {
     };
 
     dispatch({ type: TaskActionTypes.START_TASK, payload: newTask });
-    showMessage.sucesess('Task iniciada com sucesso!');
+    showMessage.success('Task iniciada com sucesso!');
   }
 
   function handleInterruptTask(
