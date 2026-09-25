@@ -53,8 +53,6 @@ export function History() {
       dispatch({
         type: TaskActionTypes.RESET_STATE,
       });
-
-      showMessage.dismiss();
     });
   }
 
