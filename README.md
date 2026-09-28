@@ -1,75 +1,100 @@
-# React + TypeScript + Vite
+# Chronos Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida com React e TypeScript para gerenciamento de ciclos de foco e descanso utilizando a técnica Pomodoro.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- TypeScript
+- Vite
+- React Router
+- Context API
+- React Hooks
+- CSS Modules
+- React Toastify
+- Git e GitHub
+- Vercel
 
-## React Compiler
+## 📌 Funcionalidades
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Criação de tarefas
+- Ciclos de foco
+- Pausas curtas e longas
+- Temporizador Pomodoro
+- Histórico de tarefas
+- Ordenação do histórico
+- Interrupção e conclusão de tarefas
+- Persistência de dados no navegador
+- Configuração dos tempos de foco e descanso
+- Interface responsiva
+- Mensagens de confirmação e feedback ao usuário
 
-Note: This will impact Vite dev & build performances.
+## 🧠 Conceitos praticados
 
-## Expanding the ESLint configuration
+Durante o desenvolvimento deste projeto, foram utilizados conceitos como:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Componentização
+- Props
+- Estado com `useState`
+- Efeitos com `useEffect`
+- Referências com `useRef`
+- Context API
+- `useReducer`
+- `useMemo`
+- Gerenciamento de estado global
+- Rotas com React Router
+- Tipagem com TypeScript
+- Organização de componentes e responsabilidades
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌐 Projeto online
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Acesse a aplicação:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+[Chronos Pomodoro](https://chronos-pomodoro-umber.vercel.app)
+
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/ErickRGuimaraes/chronos-pomodoro.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Entre na pasta:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd chronos-pomodoro
 ```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+## 🔮 Próximos passos
+
+O projeto será evoluído para uma aplicação full stack, utilizando:
+
+Java
+Spring Boot
+PostgreSQL
+API REST
+Spring Security
+JWT
+Docker
+Testes automatizados
+
+O objetivo é integrar o frontend atual com uma API desenvolvida em Java.
+
+## 👨‍💻 Autor
+
+Desenvolvido por Erick  Guimarães.
+
+GitHub:
+https://github.com/ErickRGuimaraes
